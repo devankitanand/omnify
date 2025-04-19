@@ -111,6 +111,11 @@ AUTH_PASSWORD_VALIDATORS = [
 #     "http://localhost:3000",
 # ]
 CORS_ALLOW_ALL_ORIGINS = True
+ALLOWED_HOSTS = [
+    'omnify-o03f.onrender.com',
+    # 'localhost', '127.0.0.1',  # Add these if you still need local testing support
+]
+
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
